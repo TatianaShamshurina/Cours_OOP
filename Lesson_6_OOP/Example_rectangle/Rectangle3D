@@ -1,0 +1,16 @@
+public class Rectangle3D extends Rectangle
+{
+    private double hauteur;
+
+    public Rectangle3D(double longueur, double largeur, double hauteur)
+    {
+    	super(longueur,largeur);
+    	this.hauteur=hauteur;
+    }
+
+    public double surface()
+	{
+		return 2*longueur*largeur+2*largeur*hauteur+2*longueur*hauteur;
+	}
+}
+
