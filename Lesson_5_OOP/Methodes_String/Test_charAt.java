@@ -5,7 +5,7 @@ public class Test_charAt
 
 public static void main ( String [ ] args ) 
   { 
-   String marque ="Ferrari";
+   String marque ="BMW";
 
    System.out.println (marque.charAt ( 0 ) ) ;
 
